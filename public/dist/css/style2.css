@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+/* Header */
+header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+.navbar-item {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #525560;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: #000;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-button-link:first-child {
+    margin-right: 1rem;
+    background-color: #1d2130;
+}
+
+.navbar-button-link:last-child {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #1d2130;
+}
+
+/* End Navbar */
+
+/* Text Container */
+.text-container {
+    width: 710px;
+    height: 64.93px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 23%;
+}
+
+.text-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1d2130;
+}
+
+.my-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0401aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sudah-punya-akun {
+    margin-top: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(29, 33, 48, 0.41);
+}
+
+.sudah-punya-akun a {
+    color: #0401aa;
+    text-decoration: none;
+}
